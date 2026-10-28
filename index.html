@@ -1,1 +1,121 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173c35">
+  <meta name="description" content="Shop gifts, perfumes, cosmetics, jewellery and dresses at Bin Yameen Shop.">
+  <title>Bin Yameen Shop | Gifts, Beauty & Fashion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announcement">
+    Welcome to Bin Yameen Shop — Gifts, Beauty & Fashion
+  </div>
+
+  <header class="site-header">
+    <a href="#home" class="logo">
+      <span class="logo-mark">BY</span>
+      <span>BIN YAMEEN<small> S H O P</small></span>
+    </a>
+
+    <button id="menuToggle" class="menu-toggle" aria-label="Open menu">☰</button>
+
+    <nav id="mainNav">
+      <a href="#home">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="openCart" class="cart-button">
+      🛍️ My Bag <span id="cartCount">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">A LITTLE SOMETHING SPECIAL</span>
+        <h1>Find Something<br>Beautiful.</h1>
+        <p>Thoughtful gifts, lovely fragrances, beauty essentials, jewellery and fashion — all in one place.</p>
+        <a href="#shop" class="primary-button">Explore Collection →</a>
+        <a href="#categories" class="secondary-button">Browse Categories</a>
+      </div>
+
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=900&q=85" alt="Beautiful gift boxes">
+        <div class="hero-note">
+          <span>Made for you</span>
+          <strong>Little things, big smiles.</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="section-heading">
+        <span class="eyebrow">EXPLORE OUR WORLD</span>
+        <h2>Shop by Category</h2>
+        <p>Something special for every style and occasion.</p>
+      </div>
+      <div id="categoryList" class="category-grid"></div>
+    </section>
+
+    <section id="shop" class="section shop-section">
+      <div class="section-heading">
+        <span class="eyebrow">OUR COLLECTION</span>
+        <h2>Discover Your Favourites</h2>
+        <p>Explore our collection and choose what you love.</p>
+      </div>
+
+      <div class="shop-tools">
+        <input type="search" id="productSearch" placeholder="Search products..." aria-label="Search products">
+        <div id="filterButtons" class="filter-buttons"></div>
+      </div>
+
+      <div id="productGrid" class="product-grid">
+        <p>Our collection is getting ready...</p>
+      </div>
+    </section>
+
+    <section class="order-banner">
+      <div>
+        <span class="eyebrow">YOUR NEXT FAVOURITE IS WAITING</span>
+        <h2>See Something You Love?</h2>
+        <p>Choose your products and order directly through WhatsApp.</p>
+      </div>
+      <a href="#shop" class="primary-button">Start Shopping →</a>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-heading">
+        <span class="eyebrow">WE ARE HERE FOR YOU</span>
+        <h2>Let's Connect</h2>
+        <p>Have a question or a special request? We would love to help.</p>
+        <p class="contact-note">WhatsApp ordering and contact details will be configured next.</p>
+      </div>
+    </section>
+  </main>
+
+  <aside id="cartDrawer" class="cart-drawer" hidden>
+    <div class="cart-heading">
+      <h2>Your Shopping Bag</h2>
+      <button id="closeCart" aria-label="Close bag">✕</button>
+    </div>
+    <div id="cartItems"></div>
+    <p class="cart-total">Total: <strong id="cartTotal">Rs. 0</strong></p>
+    <button id="checkoutWhatsApp" class="primary-button">Order on WhatsApp</button>
+  </aside>
+
+  <footer class="site-footer">
+    <a href="#home" class="footer-logo">BIN YAMEEN SHOP</a>
+    <p>Gifts, beauty and fashion — picked with love.</p>
+    <p>© <span id="currentYear">2026</span> Bin Yameen Shop. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
