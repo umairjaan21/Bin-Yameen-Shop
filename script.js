@@ -43,8 +43,7 @@ const products = [
   { id: 5, name: "Beauty Essentials", category: "Cosmetics", price: 1800, image: categories[2].image },
   { id: 6, name: "Makeup Collection", category: "Cosmetics", price: 2800, image: "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=600&q=80" },
 { id: 7, name: "Customized Stylish Neon Light", category: "Customized Items", price: 2999, image: "./IMG-20261029-WA0179.jpg" },
-
-  { id: 8, name: "Custom Gift Box", category: "Customized Items", price: 3000, image: categories[0].image },
+{ id: 8, name: "Customized Stylish Neon Light - Star Design (18 x 8 Inch)", category: "Customized Items", price: 3499, image: "./IMG-20261017-WA0248.jpg" },
   { id: 9, name: "Elegant Jewellery", category: "Jewellery", price: 2000, image: categories[4].image },
   { id: 10, name: "Classic Accessories", category: "Jewellery", price: 1200, image: "https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=600&q=80" },
   { id: 11, name: "Elegant Dress", category: "Dresses", price: 4500, image: categories[5].image },
