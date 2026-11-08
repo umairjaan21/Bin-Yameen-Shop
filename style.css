@@ -812,3 +812,47 @@ img {
         max-width: 45vw !important;
     }
   }
+
+/* BYS Header Final Alignment */
+
+.site-header {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-end !important;
+    min-height: 150px !important;
+    padding: 16px 5% !important;
+}
+
+.site-header > .logo {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    margin: 0 !important;
+    z-index: 5 !important;
+}
+
+.site-header > .logo img {
+    width: 180px !important;
+    max-width: 34vw !important;
+    height: auto !important;
+}
+
+.site-header > #menuToggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: absolute !important;
+    left: 5% !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    z-index: 10 !important;
+}
+
+.site-header > #openCart {
+    margin-left: auto !important;
+    position: relative !important;
+    z-index: 10 !important;
+}
+
