@@ -855,4 +855,11 @@ img {
     position: relative !important;
     z-index: 10 !important;
 }
+/* BYS Logo Width Increase */
 
+.site-header > .logo img {
+    width: 250px !important;
+    max-width: 48vw !important;
+    height: auto !important;
+    object-fit: contain !important;
+}
