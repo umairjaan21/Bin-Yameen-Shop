@@ -758,3 +758,22 @@ img {
         max-width: 50vw;
     }
 }
+/* BYS LOGO FINAL SIZE */
+.site-header .logo img {
+    width: 300px !important;
+    max-width: 60vw !important;
+    height: auto !important;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .site-header .logo img {
+        width: 280px !important;
+        max-width: 60vw !important;
+    }
+
+    .site-header {
+        min-height: 165px;
+    }
+}
