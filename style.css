@@ -1,4 +1,25 @@
+.site-header {
+  width: 100%;
+  background: #ffffff;
+  padding: 12px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
+.logo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-logo {
+  width: 180px;
+  max-width: 85%;
+  height: auto;
+  display: block;
+}
 :root {
   --green: #173c35;
   --gold: #c29a55;
