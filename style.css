@@ -737,3 +737,37 @@ img {
         max-width: 28vw;
     }
 }
+/* BYS Center Logo - Bigger Size */
+
+.site-header {
+    position: sticky;
+    min-height: 145px;
+    align-items: center;
+}
+
+.site-header > .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    margin: 0;
+}
+
+.site-header > .logo img {
+    width: 190px;
+    max-width: 42vw;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        min-height: 135px;
+    }
+
+    .site-header > .logo img {
+        width: 175px;
+        max-width: 42vw;
+    }
+}
