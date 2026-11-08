@@ -777,3 +777,38 @@ img {
         min-height: 165px;
     }
 }
+/* BYS LOGO CENTER + BIG SIZE FIX */
+
+.site-header {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    min-height: 155px !important;
+}
+
+.site-header > .logo {
+    position: absolute !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    z-index: 20 !important;
+}
+
+.site-header > .logo img {
+    width: 220px !important;
+    max-width: 40vw !important;
+    height: auto !important;
+    display: block !important;
+}
+
+@media (max-width: 600px) {
+    .site-header {
+        min-height: 155px !important;
+    }
+
+    .site-header > .logo img {
+        width: 220px !important;
+        max-width: 40vw !important;
+    }
+  }
