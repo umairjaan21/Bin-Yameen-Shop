@@ -739,23 +739,10 @@ img {
 }
 /* BYS Center Logo - Bigger Size */
 
-.site-header {
-    position: sticky;
-    min-height: 145px;
-    align-items: center;
-}
-
-.site-header > .logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-    margin: 0;
-}
-
+  
 .site-header > .logo img {
-    width: 190px;
-    max-width: 42vw;
+    width: 230px;
+    max-width: 50vw;
     height: auto;
     display: block;
     object-fit: contain;
@@ -763,11 +750,11 @@ img {
 
 @media (max-width: 600px) {
     .site-header {
-        min-height: 135px;
+        min-height: 150px;
     }
 
     .site-header > .logo img {
-        width: 175px;
-        max-width: 42vw;
+        width: 205px;
+        max-width: 50vw;
     }
 }
