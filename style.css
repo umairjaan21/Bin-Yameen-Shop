@@ -722,3 +722,18 @@ img {
   }
   }
   
+/* BYS Image Logo */
+.site-header .logo .site-logo {
+    width: 125px;
+    max-width: 30vw;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .site-header .logo .site-logo {
+        width: 105px;
+        max-width: 28vw;
+    }
+}
